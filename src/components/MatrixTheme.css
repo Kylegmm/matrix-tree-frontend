@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    background: black;
+    color: #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.matrix-theme {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title Styling */
+.matrix-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+/* Custom Tree Input Section */
+.custom-tree-input {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.custom-tree-input input {
+    width: 300px;
+    padding: 10px;
+    color: #00ff00;
+    background: black;
+    border: 1px solid #00ff00;
+    font-family: "Courier New", monospace;
+}
+
+.custom-tree-input button {
+    padding: 10px 15px;
+    color: #00ff00;
+    background: black;
+    border: 1px solid #00ff00;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-tree-input button:hover {
+    background: #00ff00;
+    color: black;
+}
+
+/* Recent Trees Section */
+.recent-trees {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.recent-tree-button {
+    padding: 10px;
+    font-family: "Courier New", monospace;
+    font-size: 1rem;
+    background: black;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.recent-tree-button:hover {
+    background: #00ff00;
+    color: black;
+}
+
+/* Dropdown Menu for Other Trees */
+.tree-dropdown {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.dropdown-label {
+    font-size: 1rem;
+    color: #00ff00;
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    font-family: "Courier New", monospace;
+    font-size: 1rem;
+    background: black;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    outline: none;
+    cursor: pointer;
+}
+
+select:hover {
+    background: #00ff00;
+    color: black;
+}
+
+/* Tree Diagram Section */
+.tree-diagram {
+    width: 800px;
+    height: 600px;
+    margin: 30px auto;
+    border: 2px solid #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent zooming outside the container */
+}
+
+.tree-diagram p {
+    color: #00ff00;
+    font-size: 1.2rem;
+    text-shadow: 0 0 3px #00ff00;
+}
+
+/* Hover and Tooltip Styling */
+#hover-label {
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 0 0 3px #00ff00;
+}
